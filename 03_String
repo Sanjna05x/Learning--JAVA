@@ -1,0 +1,36 @@
+
+---Length of String---------------------------------------------01
+
+public class StringLength {
+    public static void main(String[] args) {
+        String str = "HelloWorld";
+        int length = str.length();
+        System.out.println("Length of the string is: " + length);
+    }
+}
+
+Output-
+Length of the string is: 10
+
+----------------------------------------------------------------02
+
+---Take Input from User 
+
+import java.util.Scanner;
+
+public class StringLength {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine(); // take input
+        int length = str.length();  // calculate length
+        System.out.println("Length of the string is: " + length);
+    }
+}
+
+Output-
+Enter a string: Hello
+Length of the string is: 5
+----------------------------------------------------------------03
+
+
