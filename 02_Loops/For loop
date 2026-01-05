@@ -1,0 +1,106 @@
+SYNTAX
+for (initialization; condition; increment/decrement) {
+    // code to execute
+}
+
+----------------------------------------------------------------------01
+public class Forloop {
+    public static void main(String[] args) {
+       int n=5;
+       for(int i=1;i<=n;i++)
+       {
+           System.out.println(i);
+       }
+    }
+}
+
+Output-
+1
+2
+3
+4
+5
+-------------------------------------------------------------------02
+class ReverseNumbers {
+    public static void main(String[] args) {
+        for (int i = 5; i >= 1; i--) {
+            System.out.println(i);
+        }
+    }
+}
+
+Output-
+5
+4
+3
+2
+1
+0-------------------------------------------------------------------03
+---SUM numbers and print their CUBE
+
+public class Cube{
+ public static void main(String[] args){
+int n=5;
+int sum=0;
+for(int i=1;i<=n;i++)
+{sum=sum+(i*i*i);
+System.out.println(sum);
+  }
+ }
+}
+
+Output-1
+9
+36
+100
+225
+
+----------------------------------------------------------------------04
+class Table {
+    public static void main(String[] args) {
+        int n = 5;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + (n * i));      //using String
+        }
+    }
+}
+
+Outpur-
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+----------------------------------------------------------------05
+
+class StarPattern {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+Output-
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+
+
+📌 Common Mistakes
+
+❌ Using ; after for loop
+❌ Infinite loop (i-- instead of i++)
+❌ Wrong condition (i <= n vs i < n)
