@@ -10,7 +10,7 @@ public class HelloWorld {                                  //class name =name.ja
 
 class DataTypes {
     public static void main(String[] args) {
-        byte b = 10;
+        byte b = 10;                            //primitive Datatypes
         short s = 200;
         int i = 1000;
         long l = 123456789L;
