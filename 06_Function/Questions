@@ -1,18 +1,6 @@
-Question 1
-public class Main
-{
-	public static void fun1(int age) {      // passing parameters 
-	    
-	System.out.println("Your age is"+"="+age);
-	
-	}
-	public static void main(String []arrgs){
-	    fun1(20);       //calling method 
-	}
-}
 
+-------------------------------------------Question 1-----------------------------------
 
-Question 2 
 public class Main {
 
     // Method to return square of a number
@@ -35,7 +23,8 @@ public class Main {
 }
 
 
-Question 3
+-------------------------------------------Question 2-------------------------------------
+
 public class Main {
 
     static int getTotalA(String str) {
@@ -56,6 +45,9 @@ public class Main {
     }
 }
 
+-----------------------------------------Question3---------------------------------
+
+
 public class Main {
     public static void main(String[] args) {
         String[] arr = {"aba", "ab", "d"};
@@ -67,19 +59,22 @@ public class Main {
 
         System.out.println("Total number of characters: " + count);
         
-        
+  -----------------------------------Question4-------------------------------------
+
       int nums1[]={1,2,3};
         int []nums2={1,2,3,4,5};
         nums2=nums1;
-        for(int x:nums2)  //elements wise 
+        for(int x:nums2)                             //FOR EACH LOOP-elements wise 
         System.out.print(x+":"); 
-        
+
+  --------------------------------Question5------------------------------------------
+
         
         int num[];
        num=new int[2];
         num[0]=10;
         num[1]=20;
-        num=new int[4];
+        num=new int[4];               //new keyword is used to allocate memory
         num[2]=30;
         num[3]=40;
         for( int x:num)
@@ -87,3 +82,7 @@ public class Main {
         
     }
  }
+
+Output-
+003040
+---------------------------Question6-----------------------------------------------
