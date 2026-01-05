@@ -1,1 +1,89 @@
+Question 1
+public class Main
+{
+	public static void fun1(int age) {      // passing parameters 
+	    
+	System.out.println("Your age is"+"="+age);
+	
+	}
+	public static void main(String []arrgs){
+	    fun1(20);       //calling method 
+	}
+}
 
+
+Question 2 
+public class Main {
+
+    // Method to return square of a number
+    public static int square(int n) {
+        return n * n;
+    }
+
+    // Method that prints squares from 1 to n
+    static void fun(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.println(square(i));
+            System.out.println("***");
+        }
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        fun(5);
+    }
+}
+
+
+Question 3
+public class Main {
+
+    static int getTotalA(String str) {
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == 'a') {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int res = getTotalA("abc");
+        System.out.println(res);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        String[] arr = {"aba", "ab", "d"};
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            count += arr[i].length(); // add length of each string
+        }
+
+        System.out.println("Total number of characters: " + count);
+        
+        
+      int nums1[]={1,2,3};
+        int []nums2={1,2,3,4,5};
+        nums2=nums1;
+        for(int x:nums2)  //elements wise 
+        System.out.print(x+":"); 
+        
+        
+        int num[];
+       num=new int[2];
+        num[0]=10;
+        num[1]=20;
+        num=new int[4];
+        num[2]=30;
+        num[3]=40;
+        for( int x:num)
+        System.out.print(""+x);
+        
+    }
+ }
