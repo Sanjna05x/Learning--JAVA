@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        int i = 1;                                             // initialization
+
+        while (i <= 5) {                                        // condition
+            System.out.println(i); 
+            i++;
+        }
+    }
+}
+---------------------------------------------------------------------
+---SUM of numbers
+
+public class Main {
+    public static void main(String[] args) {
+        int i = 1;
+        int sum = 0;
+
+        while (i <= 10) {
+            sum += i; // add i to sum
+            i++; // increment i
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
