@@ -1,0 +1,32 @@
+------Variable Syntax
+
+Data type Variable name=value;
+example ----int x=1;
+
+-----Local variable
+class Variable {
+    public static void main(String[] args) {
+        int x = 10;        //Local variables are declared inside methods
+        System.out.println(x);
+    }
+}
+
+--------------------------------------------------------------
+class StaticVariableExample {
+    static int count = 5;   // Static variables are shared among all objects
+
+    public static void main(String[] args) {
+        System.out.println("Count = " + count);
+    }
+}
+----------------------------------------------------------------
+class InstanceVariableExample {
+    int x = 100;   // Instance variables belong to an object.
+
+    public static void main(String[] args) {
+        InstanceVariableExample obj = new InstanceVariableExample();
+        System.out.println("Value of x = " + obj.x);
+    }
+}
+
+
