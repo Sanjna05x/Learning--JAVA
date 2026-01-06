@@ -85,4 +85,41 @@ public class Main {
 
 Output-
 003040
----------------------------Question6-----------------------------------------------
+
+
+
+
+---------------------------Question8-----------------------------------------------
+
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int a[] = {1, 4, 2};
+        seriesArray(a);
+    }
+
+    // creates number series like "123" for n = 3
+    public static String numseries(int n) {
+        String result = "";
+        for (int i = 1; i <= n; i++) {
+            result = result + i;
+        }
+        return result;
+    }
+
+    public static void seriesArray(int arr1[]) {
+        String arr2[] = new String[arr1.length];
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[i] = numseries(arr1[i]);
+        }
+
+        System.out.println(Arrays.toString(arr2));
+    }
+}
+
+
+
