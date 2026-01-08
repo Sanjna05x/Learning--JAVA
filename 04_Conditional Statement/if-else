@@ -10,3 +10,27 @@ class Main {
     }
 }
 
+----------------------------------------------------------
+
+(if-if) Both if conditions will checked and execute 
+
+
+class Main {
+    public static void main(String[] args) {
+        int number = 15;
+
+        if (number > 10) {
+            System.out.println("Number is greater than 10");
+        }
+
+        if (number % 5 == 0) {
+            System.out.println("Number is divisible by 5");
+        }
+    }
+}
+Number is greater than 10
+Number is divisible by 5
+
+
+
+
