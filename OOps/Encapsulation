@@ -1,1 +1,50 @@
+class Person{
+    private String name;
+    public String country;
+    
+    Person(String name1,String country1){      //local variables 
+        name =name1;
+        country=country1;
+    }
+    
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Person p1= new Person("nitish","india");
+	     Person p2= new Person("steve","australia");
+	   
+	     
+	   System.out.println(p1.name);
+	    p1.name="india";
+	     System.out.println(p1.name);        //cant assign/assess value (private)
+	     
+	
+ }
+}
+
+------------------------------------------------------------------------------
+class Data{
+    private String name;
+    
+        //getter method
+    public String getName(){
+        return this.name;}
+        //setter method
+        public void setName(String name)
+        {
+            this.name=name;
+        }
+    }
+    
+public class Main
+{
+	public static void main(String[] args) {
+	    Data d= new Data();
+	     d.setName("Triset");                       //Asses private variable using getter setter method
+	     System.out.println(d.getName());
+ }
+}
+
+ ---------------More variables tha use toString()  method  to print in single line 
 
