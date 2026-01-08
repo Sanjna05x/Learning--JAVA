@@ -75,3 +75,26 @@ public class Main
 	
  }
 }
+
+------------------------------------------------------------------------------
+class Data{
+    private String name;
+    
+        //getter method
+    public String getName(){
+        return this.name;}
+        //setter method
+        public void setName(String name)
+        {
+            this.name=name;
+        }
+    }
+    
+public class Main
+{
+	public static void main(String[] args) {
+	    Data d= new Data();
+	     d.setName("Triset");                       //Asses private variable using getter setter method
+	     System.out.println(d.getName());
+ }
+}
