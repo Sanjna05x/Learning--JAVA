@@ -1,1 +1,58 @@
+OOPS in Java (Short Points)------
 
+1. Class
+-Blueprint of an object, set of rules 
+-Contains attributes or variables (data members) and methods
+
+
+2.Object
+-Instance of a class
+-Represents real-world entity
+-Created using new keyword
+
+
+3. Encapsulation
+-Wrapping data and methods into one unit (class)
+-Data hiding using private keyword
+-Access through getters and setters
+
+
+4. Inheritance
+-One class acquires properties of another class
+-Uses extends keyword   ( parent and child )  drived class.
+-Promotes code reusability
+
+
+5.Polymorphism ---Many behaviours
+-One thing, many forms
+-Method Overloading (compile-time)
+-Method Overriding (run-time)
+
+
+6. Abstraction
+-Hiding implementation, showing only functionality
+-Achieved using abstract class and interface
+
+
+7. Interface
+-Fully abstract class
+-Uses implements keyword
+-Supports multiple inheritance
+
+
+8 Constructor
+-Special method to initialize objects
+-Same name as class
+-No return type
+
+
+
+9. Method
+-lock of code that performs a task
+-Improves code reusability
+
+
+
+10. Access Modifiers
+-public, private, protected, default
+-Control accessibility
