@@ -47,3 +47,31 @@ public class Main
 		
 	}
 }
+
+
+--------------------------------------------------------------------
+
+class Person{
+    private String name;
+    public String country;
+    
+    Person(String name1,String country1){      //local variables 
+        name =name1;
+        country=country1;
+    }
+    
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Person p1= new Person("nitish","india");
+	     Person p2= new Person("steve","australia");
+	   
+	     
+	   System.out.println(p1.name);
+	    p1.name="india";
+	     System.out.println(p1.name);        //cant assign/assess value (private)
+	     
+	
+ }
+}
